@@ -56,6 +56,7 @@ function HomeInfo(params) {
   const [Blocks, setBlocks] = useState([])
   const [Trans, setTrans] = useState([])
 
+
   const getBlockNum = () => {
     fetch(`${API}/info/blocks/`, {method:"GET"})
     .then(response=>{
@@ -140,12 +141,15 @@ function HomeInfo(params) {
     })
   }
 
+
   useEffect(()=>{
     getBlockNum()
     getTxsNum()
     getNFTNum()
     getNFTClses()
     getNFT()
+    getBlocks()
+    getTrans()
   },[])
 
   useEffect(() =>{
@@ -201,7 +205,12 @@ function HomeInfo(params) {
               return(
                 <div key={item.height} className="flex flex-row justify-between border-b-2 my-4 p-4 text-lg">
                   <div>
-                    <div className="text-blue-500">{item.height}</div>
+                    <div className="text-blue-500">
+                      <span className="font-bold text-black">区块# </span>
+                      <span className="cursor-pointer" 
+                        onClick={()=>{window.location.href=`/blocks/${item.height}`}}
+                      >{item.height}</span>
+                    </div>
                     <div>Proposer: {item.proposer}</div>
                   </div>
                   <div> {">"} {parseTime(item.time)}</div>
@@ -217,7 +226,7 @@ function HomeInfo(params) {
               return(
                 <div key={item.height} className="flex flex-row justify-between border-b-2 my-4 p-4 text-lg">
                   <div>
-                    <div className="text-blue-500">{item.height}</div>
+                    <div className="text-blue-500"><span className="font-bold text-black">交易# </span>{item.height}</div>
                     <div>type: {item.types}</div>
                   </div>
                   <div> {">"} {parseTime(item.time)}</div>

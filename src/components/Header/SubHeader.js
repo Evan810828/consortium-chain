@@ -10,13 +10,13 @@ function SubHeader() {
   return(
     <div className="flex flex-row justify-evenly p-4 bg-white">
       <div className={`text-2xl cursor-pointer`} onClick={()=>{window.location.href="/"}}>
-        Home
+        概览
       </div>
       <div className={`text-2xl cursor-pointer`} onClick={()=>{window.location.href="/blocks"}}>
-        Blocks
+        区块浏览
       </div>
       <div className={`text-2xl cursor-pointer`} onClick={()=>{window.location.href="/trans"}}>
-        Transactions
+        交易浏览
       </div>
     </div>
   )
