@@ -48,7 +48,7 @@ function Trans() {
   return(
     <div className="flex flex-row justify-center p-5">
       <InfoWrapper className="w-3/4">
-        <div className="p-5 text-2xl">Current Height <span className="text-blue-500 ml-3">{txsNum}</span></div>
+        <div className="p-5 text-2xl">当前交易数量 <span className="text-blue-500 ml-3">{txsNum}</span></div>
         <div className="flex justify-between px-8 font-bold pt-5">
           <div className="">交易哈希值</div>
           <div className="">签名人</div>

@@ -48,11 +48,11 @@ function Block() {
   return(
     <div className="flex flex-row justify-center p-5">
       <InfoWrapper className="w-3/4">
-        <div className="p-5 text-2xl">Current Height <span className="text-blue-500 ml-3">{BlockNum}</span></div>
+        <div className="p-5 text-2xl">当前高度 <span className="text-blue-500 ml-3">{BlockNum}</span></div>
         <div className="flex justify-between px-8 font-bold pt-5">
-          <div>Height</div>
-          <div className="mr-32">Proposer</div>
-          <div>Time</div>
+          <div>区块高度</div>
+          <div className="mr-32">区块哈希值</div>
+          <div>参考时间</div>
         </div>
         <div className="px-5">
           {Blocks.map(item=>{
