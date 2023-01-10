@@ -1,0 +1,25 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="design-iconfont">
+  <g clip-path="url(#4greszxjd__clip0_8_1121)">
+    <path d="M23.1436 30.3641C29.8484 28.5676 33.8273 21.6759 32.0308 14.9711" stroke="url(#4greszxjd__paint0_linear_8_1121)" stroke-width="3.77049"/>
+    <path d="M30.1469 10.8845C26.6763 4.87314 18.9896 2.81351 12.9783 6.28415" stroke="url(#4greszxjd__paint1_linear_8_1121)" stroke-width="3.77049"/>
+    <path d="M6.80476 15.082C5.00822 21.7867 8.98713 28.6784 15.6919 30.4749" stroke="url(#4greszxjd__paint2_linear_8_1121)" stroke-width="3.77049"/>
+    <path d="M27.5598 12.5587L26.193 13.2966L20.9283 10.3196V17.6475L21.9914 18.1818L27.2561 21.2605V15.2303L28.4204 14.5942L32.8499 17.1386L38.1146 14.1617V8.00425L32.8499 5.02732L27.5598 8.00425V12.5587V12.5587ZM11.4366 14.5688L12.4997 15.2049V21.2605L18.8275 17.6475V10.3196L13.5628 13.2966L12.196 12.5587V8.00425L6.93123 5.02732L1.6665 8.00425V14.1617L6.93123 17.1386L11.4366 14.5688V14.5688ZM26.193 23.067L19.8652 19.454L18.8022 20.0901L13.5374 23.067L18.8022 26.0439V26.7818L14.5752 29.2244V35.2546L19.8652 38.3333L25.13 35.2546V29.2244L20.903 26.7818V26.0439L26.193 23.067V23.067Z" fill="#fff"/>
+  </g>
+  <defs>
+    <linearGradient id="4greszxjd__paint0_linear_8_1121" x1="25.0487" y1="31.3166" x2="34.0301" y2="15.0819" gradientUnits="userSpaceOnUse">
+      <stop offset=".234375" stop-color="#fff"/>
+      <stop offset=".890103" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="4greszxjd__paint1_linear_8_1121" x1="30.5739" y1="8.79781" x2="12.5678" y2="4.32431" gradientUnits="userSpaceOnUse">
+      <stop offset=".234375" stop-color="#fff"/>
+      <stop offset=".890103" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="4greszxjd__paint2_linear_8_1121" x1="5.02733" y1="16.2555" x2="14.5963" y2="32.151" gradientUnits="userSpaceOnUse">
+      <stop offset=".234375" stop-color="#fff"/>
+      <stop offset=".890103" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="4greszxjd__clip0_8_1121">
+      <path fill="#fff" d="M0 0H40V40H0z"/>
+    </clipPath>
+  </defs>
+</svg>

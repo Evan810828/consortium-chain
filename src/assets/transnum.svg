@@ -1,0 +1,20 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 72" class="design-iconfont">
+  <path d="M13.1269 37.6603C10.3655 32.8773 12.0043 26.7614 16.7872 24L35.8397 13C40.6227 10.2386 46.7386 11.8773 49.5 16.6603L60.5 35.7128C63.2614 40.4958 61.6227 46.6117 56.8397 49.3731L37.7872 60.3731C33.0043 63.1345 26.8884 61.4957 24.1269 56.7128L13.1269 37.6603Z" fill="url(#jcxcidlod__paint0_linear_6_945)"/>
+  <g filter="url(#jcxcidlod__filter0_b_6_945)">
+    <rect x="24.1865" y="21" width="42" height="42" rx="10" fill="#fff" fill-opacity=".1"/>
+  </g>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M49.2037 30.7276C48.2337 29.7575 46.6609 29.7575 45.6908 30.7276C44.7207 31.6976 44.7207 33.2704 45.6908 34.2405L47.3052 35.8549H37.984C36.6121 35.8549 35.5 36.967 35.5 38.3389C35.5 39.7108 36.6121 40.8229 37.984 40.8229H52.8882C52.958 40.8229 53.0273 40.8201 53.0957 40.8144C53.7983 40.8727 54.521 40.633 55.0586 40.0954C56.0287 39.1253 56.0287 37.5525 55.0586 36.5825L49.2037 30.7276Z" fill="#fff"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M42.0824 53.3435C43.0525 54.3136 44.6253 54.3136 45.5953 53.3435C46.5654 52.3734 46.5654 50.8007 45.5953 49.8306L43.9809 48.2162L53.3021 48.2162C54.674 48.2162 55.7861 47.104 55.7861 45.7322C55.7861 44.3603 54.674 43.2481 53.3021 43.2481L38.398 43.2481C38.3281 43.2481 38.2589 43.251 38.1904 43.2567C37.4878 43.1984 36.7651 43.4381 36.2275 43.9757C35.2574 44.9458 35.2574 46.5185 36.2275 47.4886L42.0824 53.3435Z" fill="#fff"/>
+  <defs>
+    <linearGradient id="jcxcidlod__paint0_linear_6_945" x1="26.3135" y1="18.5" x2="47.3135" y2="54.8731" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8282"/>
+      <stop offset="1" stop-color="#ED2D72" stop-opacity=".51"/>
+    </linearGradient>
+    <filter id="jcxcidlod__filter0_b_6_945" x="4.18652" y="1" width="82" height="82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="10"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_6_945"/>
+      <feBlend in="SourceGraphic" in2="effect1_backgroundBlur_6_945" result="shape"/>
+    </filter>
+  </defs>
+</svg>

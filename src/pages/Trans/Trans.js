@@ -42,13 +42,13 @@ function Trans() {
 
   const InfoWrapper = styled.div`
     background-color: white;
-    border-radius: 20px;
+    border-radius: 16px;
   `;
 
   return(
     <div className="flex flex-row justify-center p-5">
       <InfoWrapper className="w-3/4">
-        <div className="p-5 text-2xl">当前交易数量 <span className="text-blue-500 ml-3">{txsNum}</span></div>
+        <div className="p-5 text-2xl">当前交易数量 <span className="text-link ml-3">{txsNum}</span></div>
         <div className="flex justify-between px-8 font-bold pt-5">
           <div className="">交易哈希值</div>
           <div className="">签名人</div>
@@ -60,10 +60,10 @@ function Trans() {
           {Trans.map(item=>{
             if(!item.signers) return null
             else return(
-              <div key={item.height} className="flex flex-row justify-between border-b-2 my-4 p-4 text-lg">
-                <div className="text-blue-500">{item.tx_hash.slice(0,4)+"..."+item.tx_hash.slice(-4,-1)}</div>
+              <div key={item.height} className="flex flex-row justify-between border-b-2 my-2 p-4">
+                <div className="text-link">{item.tx_hash.slice(0,4)+"..."+item.tx_hash.slice(-4,-1)}</div>
                 <div>{item.signers[0]}</div>
-                <div className="text-blue-500">{item.height}</div>
+                <div className="text-link">{item.height}</div>
                 <div>{item.gas_used}</div>
                 <div>{parseTime(item.time)}</div>
               </div>
